@@ -1,0 +1,524 @@
+/* index css */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+/* Electronic Arts Navbar css */
+#eArtsNav{
+    background-color: #222222 !important;
+    height: 40px;
+}
+
+#navbarNav ul li {
+    padding: 8px;
+}
+
+#navbarNav ul li a i{
+    margin-top: 6px;
+    color: gray;
+    font-size: 18px;
+}
+
+#navbarNav ul li a i:hover{
+    color: rgb(170, 170, 170);
+    font-size: 24px;
+}
+
+/* BattleField 2042 Navbar */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+#bf2042Nav{
+    background-color: #000000 !important;
+    z-index: 1;
+}
+
+#bf-DropDown li{
+    padding-left:  6px;
+}
+
+#bf-DropDown li a{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.dropdown-menu{
+    background: #000000;
+    margin-top: 5px;
+    opacity: 0.9;
+}
+
+#navbarDropdownMenuLink:hover{
+    color: #26ffdf;
+}
+
+.dropdown-menu a:hover{
+    background-color: #000000;
+    color: #26ffdf !important;
+
+}
+
+#buyNow{
+    background-color: cyan;
+    margin-left: 70px !important;
+}
+
+#buyNow a{
+    text-transform: none !important;
+    font-weight: normal !important;
+    width: 120px;
+    text-align: center;
+    color: #000000 !important;
+}
+
+.saleInfo{
+    background-color: cyan;
+}
+
+.saleText{
+    text-decoration: underline;
+    font-weight: 700;
+    color: #000;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+/* trailer body */
+
+.trailer{
+    background-image:url(img/bf-2042-hero-large-accolades-middle-16x9-xl.png.adapt.crop16x9.1920w.png) ,url(img/bf-2042-hero-large-accolades-16x9-xl.jpg.adapt.crop16x9.1920w.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    height: 115vh;
+    overflow: hidden;
+    background-position: center;
+    background-position: center;
+
+
+}
+
+#trailerImg img{
+
+    margin-top: 220px;
+}
+
+#trailerImg p{
+    margin-left: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.trailer-btnGroup{
+    margin-top: 20px;
+}
+
+.trailer-btnGroup .btn-primary {
+    width: 140px;
+    background-color: aqua !important;
+    border: aqua;
+}
+
+.trailer-btnGroup button a{
+    color: #000;
+    text-decoration: none;
+}
+
+.column2{
+    float: left;
+    margin-left: 60px;
+}
+
+/* Game Trailler Info */
+
+.gameTrailer{
+    background-image: url(img/bf-2042-section-bg-homepage-experiences-xl.jpg.adapt.1920w.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 115vh;
+    background-color: #000000;
+
+}
+
+.gameTrailerInfo h2{
+    color:#26ffdf;
+    font-size: 64px;
+}
+
+.gameTrailerInfo p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Anton', sans-serif;
+}
+
+.gameTrailer-btnGroup button{
+    background-color: #26ffdf;
+    border:none;
+}
+
+.gameTrailer-btnGroup button a{
+    color:#000000
+}
+
+.gameTrailerCard{
+    background: none;
+}
+
+.gameTrailerCard div h4{
+    font-size: 1.6rem;
+    font-family: 'Anton', sans-serif;
+    font-weight: 600 !important;
+    color: #ffffff;
+}
+
+.gameTrailerCard div p{
+    color: #ffffff;
+    font-weight: 500 !important;
+    font-family: 'Anton', sans-serif;
+}
+/* Game Experinces Card Boxes */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+.gameExperinces{
+    margin-top: 100px !important;
+}
+
+.gameExperincesHeader h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 48px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.gameTrailerCard button a{
+    color:#000000;
+    font-size: 16px;
+    font-family: 'Anton', sans-serif;
+}
+
+#gameTrailerCard1 button{
+    margin-top: 165px;
+}
+
+/* Update Cards */
+@import url(//db.onlinewebfonts.com/c/4b5eecf084582969d8b06b11f58a3880?family=Purista);
+.updateCards{
+    border: none;
+    border-radius: 0%;
+    margin-top: 120px;
+
+}
+
+.updateCards:hover{
+    animation:slideup 2s 2;
+    animation-direction: alternate;
+
+}
+
+.updateCards:active{
+  border: #fff 6px solid;
+  
+
+}
+
+.updateCards div h6 span{
+    color: #26ffdf;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.updateCards div h6 {
+    font-weight: bold;
+    color: #000000;
+}
+
+.updateCards h4{
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.updateCards p{
+    font-size: 18px;
+    color: #000000;
+    
+}
+
+#loadMoreBorder{
+    border: 2px solid;
+  
+}
+
+#loadMoreBorder:hover{
+    border-color: rgb(180, 180, 180);
+    color: rgb(180,180,180);
+    
+}
+
+/* WORLD OF 2042 */
+
+.worldOf2042{
+    background-image:url(img/bf-2042-hero-medium-homepage-wo2042-7x2-xl.jpg.adapt.crop7x2.1920w.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    background-position: top;
+}
+
+.worldOf2042 h1,.bf2042Faq h1{
+    margin-top: 20%;
+    color: #fff;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: bold;
+    font-size: 52px;
+
+}
+
+.worldOf2042 p{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.worldOf2042 button a{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.worldOf2042 button:hover {
+    width: 150px;
+    height: 52px;
+}
+
+
+/* bf2042FAQ */
+
+.bf2042Faq{
+    background-image:url(img/bf-2042-section-bg-cloud-1-xl.jpg.adapt.1920w.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    overflow: hidden;
+    background-position: top;
+}
+
+.bf2042Faq h1{
+    margin-top: 10%;
+    color: #fff;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.bf2042Faq p{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.bf2042Faq button a{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.bf2042Faq button:hover {
+    width: 120px;
+    height: 52px;
+}
+
+/* Explore BF2042 */
+
+.exploreBf2042{
+    margin-top: 120px;
+}
+
+.exploreBf2042 h1{
+    color: #fff;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: bold;
+    
+}
+
+/* bf2042 register */
+
+.bf2042Register{
+    margin-top: 200px;
+    background-image:url(img/newsletter-background-image.jpg.adapt.1920w.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+    overflow: hidden;
+    background-position: top;
+
+}
+
+.bf2042Register h2{
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.bf2042Register p{
+    color: #fff;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-family: sans-serif;
+}
+
+.bf2042Register input{
+    background: none;
+    height: 60px;
+    border-color:  rgb(180, 180, 180);
+     
+}
+
+
+.exploreBf2042Btns button{
+    margin-left: 30px;
+    width: 160px;
+    height: 50px;
+   
+}
+
+.exploreBf2042Btns button a{
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#registerAppend{
+   margin-left: 25px;
+}
+
+#Country{
+    background: none;
+    width: 250px;
+    height: 60px;
+}
+
+#bf2042Check{
+    background-color: #000000;
+    color: rgb(180, 180, 180);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.signUp{
+    background-color: #26ffdf !important;
+    border: none;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #252525;
+}
+
+footer h6{
+    color: #fff;
+}
+
+footer h6 hr{
+    background-color: #797979;
+}
+
+footer hr{
+    background-color: #797979;
+}
+
+footer ul{
+    display: inline;
+}
+
+footer ul li{
+    color: #797979;
+    float: left;
+    list-style: none;
+    padding-right: 10px;
+}
+
+footer ul li a{
+    color: #797979;
+}
+
+footer ul li a:hover{
+    color:  #26ffdf;
+    text-decoration: none;
+}
+
+footer ul li i{
+   font-size: 16px;
+}
+
+.adverstiment img{
+    padding-right: 20px;
+}
+
+.adverstiment1 img{
+    padding: 0;
+}
+
+@keyframes slideup{
+    0%{
+       bottom: 2px;
+    }
+    5%{
+        bottom: 4px;
+     }
+     10%{
+        bottom: 8px;
+     }
+     12%{
+        bottom: 12px;
+     }
+     16%{
+        bottom: 16px;
+     }
+     18%{
+        bottom: 18px;
+     }
+    20%{
+      bottom: 20px;
+    }
+    40%{
+       bottom: 18px;
+    }
+    60%{
+        bottom: 16px;
+     }
+     80%{
+       bottom: 14px;
+     }
+     100%{
+        bottom: 12px;
+     }
+}
+
+
+    
+    @keyframes move-right {
+    0% {
+      transform:rotate(-90deg) translateY(0)
+    }
+    
+    50% {
+      transform:rotate(-90deg) translateY(10px)
+    }
+    
+    100% {
+      transform:rotate(-90deg) translateY(0)
+    }
+}
